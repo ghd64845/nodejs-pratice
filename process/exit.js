@@ -6,4 +6,4 @@ setInterval(() => {
     }
     console.log(i);
     i++;
-}, 1000);
+}, 1000);//1초 마다 실행

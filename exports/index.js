@@ -1,8 +1,8 @@
-const {odd, even} = require('./var');
-const checkNumber = require('./func');
+const {odd, even} = require('./var'); 
+const checkNumber = require('./func');   //var.js와 func.js둘다 참조 ,모듈 하나가 여러 개의 모듈에 사용할 수 있다.
 
-function checkStringOddOrEven(){
-    if(String.length % 2){
+function checkStringOddOrEven(str){
+    if(str.length % 2){
         return odd;
     }
     return even;
