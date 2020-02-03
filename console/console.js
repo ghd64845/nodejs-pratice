@@ -13,7 +13,7 @@ console.log('평범한 로그입니다 쉽표로 구분해 여러 값을 찍을 
 console.log(string, number, boolean);
 console.error('에러 메세지는 console.error에 담아주세요.');//에러를 콘솔에 표시
 
-console.dir(obj, {colors: false, depth : 2});//객체를 콘솔에 표시할 때 사용
+console.dir(obj, {colors: true, depth : 2});//객체를 콘솔에 표시할 때 사용
 console.dir(obj, {colors : true, depth : 1});
 
 console.time('시간 측정');
