@@ -22,7 +22,7 @@ exports.isLoggedIn = (req, res, next) => {
       return next();
     } catch(error) {
       if(error.name === 'TokenExpriredError') {//유효기간 초과
-        return res.status(418).json({
+        return res.status(419).json({
           code : 419,
           message : '토큰이 만료되었습니다.',
         });
